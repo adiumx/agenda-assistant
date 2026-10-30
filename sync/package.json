@@ -1,0 +1,14 @@
+{
+  "name": "agenda-assistant-sync",
+  "private": true,
+  "type": "module",
+  "description": "Read-only IMAP sync for the Agenda Assistant (runs outside the sandbox)",
+  "scripts": {
+    "sync": "node sync-inbox.mjs",
+    "test": "node test-lib.mjs"
+  },
+  "dependencies": {
+    "imapflow": "2.10.0",
+    "mailparser": "3.14.1"
+  }
+}

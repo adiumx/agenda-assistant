@@ -1,0 +1,9 @@
+data/calendar.json
+.env
+node_modules/
+*.log
+sync/staging/
+sync/*.log
+sync/.sync.lock
+*.tmp
+data/mail/
