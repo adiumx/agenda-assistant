@@ -60,9 +60,9 @@ The test build uses a **sample inbox** (`data/inbox.json`, 10 invented emails) a
 **1. Check the tools offline** (any machine with Node, no API key needed):
 
 ```bash
-git clone TODO_REPO_URL
+git clone https://github.com/adiumx/agenda-assistant.git
 cd agenda-assistant
-node tools/test.mjs          # expect: 11 checks passed
+node tools/test.mjs          # expect: 12 checks passed
 ```
 
 **2. Upload the repo into the sandbox workspace.** The folder lands at `/sandbox/.openclaw/workspace/agenda-assistant`:
